@@ -2,7 +2,7 @@
 layout: default
 title: "关于：About"
 ---
-####Basic Info
+####Profile
 This is a software developer.  
 
 ####Links

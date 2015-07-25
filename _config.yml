@@ -11,10 +11,11 @@ paginate_path: "page:num"
 # presonal config
 domain: out001a.github.io
 title: Huanming's Blog
-description: PHP, Web, Linux, reading...
+description: Web, Mobile, PHP, Linux, 阅读与思考, 感悟与牢骚, ...
 author: shanhuanming
 email: out001a#gmail.com
 github: out001a
+weibo: out001a
 
 config:
   js_dir:
