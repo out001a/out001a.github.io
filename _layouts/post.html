@@ -1,11 +1,11 @@
---- 
-layout: default 
---- 
+---
+layout: default
+---
 <!-- Blog Post -->
 <!-- Title -->
 <h2>
   {{ page.title }}
-  <div class="post-date"><a href="https://github.com/{{ site.github }}/{{ site.github }}.github.com/edit/master/{{ page.path }}" target="_blank">纠错</a>&nbsp;&nbsp;
+  <div class="post-date"><a href="https://github.com/{{ site.github }}/{{ site.github }}.github.io/edit/master/{{ page.path }}" target="_blank">纠错</a>&nbsp;&nbsp;
 	<span class="glyphicon glyphicon-time"></span>
 	{{ page.date | date_to_string }}
   </div>
@@ -22,7 +22,7 @@ layout: default
       {{page.previous.title}}
     </a>
   </span>
-  {%endif%} 
+  {%endif%}
   {%if page.next%}
   <span class="prev">
     下篇：
@@ -35,5 +35,5 @@ layout: default
 <hr>
 <!-- Blog Comments -->
 <div class="media">
-  {% include comment.html %} 
+  {% include comment.html %}
 </div>
