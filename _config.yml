@@ -1,5 +1,8 @@
 gems: ['jekyll-lunr-js-search']
 
+lunr_search:
+  excludes: [404.html, about.html, archives.html, atom.xml, categories.html, index.html, tags.html]
+
 markdown: redcarpet
 permalink: /:categories/:title.html
 url:
