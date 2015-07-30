@@ -1,9 +1,11 @@
+gems: ['jekyll-lunr-js-search']
+
 markdown: redcarpet
 permalink: /:categories/:title.html
 url:
 lsi: false
 highlighter: pygments
-safe: true
+safe: false
 
 paginate: 8
 paginate_path: "page:num"
