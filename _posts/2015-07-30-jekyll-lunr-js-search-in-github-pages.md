@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "web"
-title: "jekyll-lunr-js-search使用的安装与使用"
+title: "jekyll-lunr-js-search的安装与使用"
 tags: ["jekyll,lunr,search,github-pages"]
 summary: "我只是一条摘要"
 
