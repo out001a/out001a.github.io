@@ -4,7 +4,7 @@ title: "搜索：Search"
 ---
 
 <section id="search-results" style="display: none;">
-  <p>Search results</p>
+  <p>搜索结果</p>
   <div class="entries">
   </div>
 </section>
