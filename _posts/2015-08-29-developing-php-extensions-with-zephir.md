@@ -18,11 +18,13 @@ summary: "我只是一条摘要"
 #### 初始化
 进行项目开发的第一件事就是初始化，生成项目的基本骨架。
 要开发一个名为`utils`的扩展，就需要在工作空间下执行以下命令来生成所需的项目文件。
+
 ```sh
 zephir init utils
 ```
 
 这个命令会在当前文件夹下生成一个`utils`目录以及很多初始化的文件和文件夹。
+
 * `utils/ext/`目录下包含的是编译器生成扩展所需的代码。
 * `utils/utils/`目录下放置我们要编写的Zephir源码。
 * `utils/config.json`是用来控制Zephir和这个扩展的行为的配置文件，可以这以后慢慢了解。
@@ -92,7 +94,8 @@ utils/
 
 #### 编写
 进入`utils/utils/`目录，创建一个名为`greeting.zep`的文件。
-```greeting.zep
+
+```
 namespace Utils;
 
 class Greeting
@@ -106,15 +109,19 @@ class Greeting
 
 #### 构建
 进入`utils/`目录（也就是有`config.json`文件的项目根目录），执行以下命令编译和生成扩展。
+
 ```sh
 zephir build
 ```
+
 如果一切顺利，在命令执行完毕后就会看到下面的输出：
+
 ```
 ...
 Extension installed!
 Add extension=utils.so to your php.ini
 Don't forget to restart your web server
 ```
-把`extension=utils.so`这一行加到cli的`php.ini`中，执行`php -m`就应该可以看到有`utils`这个扩展了。  
+
+接着把`extension=utils.so`这一行加到cli的`php.ini`中，执行`php -m`就应该可以看到有`utils`这个扩展了。  
 执行`php -r 'echo utils\Greeting::say(),"\n";'`，如果可以输出`Hello world!`就说明扩展已经安装成功。
