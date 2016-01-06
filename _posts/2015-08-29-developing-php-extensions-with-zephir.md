@@ -7,10 +7,10 @@ summary: "我只是一条摘要"
 
 ---
 
-[Zephir](http://www.zephir-lang.com/install.html)是专门用来开发PHP扩展的一种领域特定语言（DSL），是[Phalcon](https://phalconphp.com/zh)团队为他们的第二版框架开发而专门编写的。废话不多说，直接进入正题。
+[Zephir](http://zephir-lang.com)是专门用来开发PHP扩展的一种领域特定语言（DSL），是[Phalcon](https://phalconphp.com/zh)团队为他们的第二版框架开发而专门编写的。废话不多说，直接进入正题。
 
 ### 安装
-安装过程在其[官网页面](http://www.zephir-lang.com/install.html)有很详细的描述，这里就不再赘述。
+安装过程在其[官网页面](http://docs.zephir-lang.com/en/latest/install.html)有很详细的描述，这里就不再赘述。
 
 ### 开发第一个扩展
 在Zephir安装完成后，命令行执行`zephir help`可以确认其是否安装成功，以及查看一些常用的选项。  
