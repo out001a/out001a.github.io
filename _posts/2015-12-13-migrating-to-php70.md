@@ -29,8 +29,4 @@ summary: "我只是一条摘要"
 {% include github-widget.html git-repo="mongofill/mongofill" %}
 
 ### redis
-官方的[redis扩展](https://pecl.php.net/package/redis)目前还没有支持PHP7，以后应该会支持，而现在只能去github上找PHP7的分支来安装了。
-
-    git clone https://github.com/phpredis/phpredis.git  
-    cd phpredis  
-    git checkout php7  
+PECL官方最新的[redis扩展](https://pecl.php.net/package/redis)（3.0.0及以上版本）已经支持了PHP7。
